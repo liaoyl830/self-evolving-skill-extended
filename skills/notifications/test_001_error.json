@@ -1,0 +1,7 @@
+{
+  "task_id": "test_001",
+  "type": "error",
+  "error": "测试错误",
+  "fallback_mode": true,
+  "timestamp": "2026-03-14T00:33:37.624890"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1773413584867
+    },
+    "self-evolving-skill": {
+      "version": "1.0.2",
+      "installedAt": 1773416466844
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1773418745047
+    },
+    "openclaw-backup": {
+      "version": "1.0.0",
+      "installedAt": 1773423634196
+    }
+  }
+}
