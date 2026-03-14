@@ -54,6 +54,13 @@ _重要事件、决策、上下文和教训的精选记录_
 - **用途:** GitHub API 访问、PR 操作、仓库管理
 - **存储:** `~/.openclaw/.env` → `GITHUB_TOKEN`
 
+### GitHub 仓库
+
+- **仓库名:** `openclaw-skills-ext`
+- **URL:** `https://github.com/liaoyl830/openclaw-skills-ext.git`
+- **用途:** OpenClaw 技能扩展项目
+- **编码:** UTF-8 (已配置 `.gitattributes` 强制)
+
 ### ClawHub
 
 - **Token:** `clh_nLRaCWXfzGiC7-4-NLwmvtvA8mMO8TpmjQ2JsA93P5g`

@@ -1,0 +1,76 @@
+# =========================
+# OpenClaw Workspace .gitignore
+# =========================
+
+# 依赖目录
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+.eggs/
+
+# Python 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# 环境变量（敏感信息）
+.env
+.env.local
+.env.*.local
+*.env
+
+# OpenClaw 运行时
+.openclaw/workspace-state.json
+.clawhub/lock.json
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+logs/
+*.log.*
+
+# 测试
+coverage/
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.bak
+
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 证书和密钥
+*.pem
+*.key
+*.crt
+*.p12
