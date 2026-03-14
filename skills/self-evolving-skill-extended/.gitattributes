@@ -1,0 +1,41 @@
+# 强制所有文本文件使用 UTF-8 编码
+* text eol=lf working-tree-encoding=UTF-8
+
+# Python 文件
+*.py text eol=lf working-tree-encoding=UTF-8
+
+# Markdown 文档
+*.md text eol=lf working-tree-encoding=UTF-8
+
+# JSON 配置文件
+*.json text eol=lf working-tree-encoding=UTF-8
+
+# TypeScript/JavaScript
+*.ts text eol=lf working-tree-encoding=UTF-8
+*.js text eol=lf working-tree-encoding=UTF-8
+
+# Shell 脚本
+*.sh text eol=lf working-tree-encoding=UTF-8
+*.bat text eol=lf working-tree-encoding=UTF-8
+
+# YAML
+*.yaml text eol=lf working-tree-encoding=UTF-8
+*.yml text eol=lf working-tree-encoding=UTF-8
+
+# 排除二进制文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.dll binary
+*.exe binary
+*.node binary
+
+# 排除依赖目录
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
