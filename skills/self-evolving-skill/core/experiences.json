@@ -1,0 +1,75 @@
+{
+  "experiences": [
+    {
+      "skill_id": "github_publish",
+      "timestamp": "2026-03-14T16:00:00+08:00",
+      "success": false,
+      "value": 0.5,
+      "context": {
+        "task": "github_push",
+        "issue": "utf8_encoding",
+        "description": "GitHub 上传的代码中文乱码",
+        "root_cause": "文件未使用 UTF-8 编码保存，被当作 GBK 解码",
+        "lesson": "发布前必须检查文件编码和敏感信息"
+      },
+      "actions_taken": [
+        "创建 .gitattributes 强制 UTF-8 编码",
+        "批量转换 18 个 Python 文件为 UTF-8",
+        "移除 MEMORY.md 中的敏感 Token",
+        "重新提交并推送到 GitHub"
+      ],
+      "reflections": [
+        "开发时没有确认编码格式",
+        "发布前没有检查清单",
+        "发布后没有验证 GitHub 显示",
+        "没有建立编码意识和发布检查流程"
+      ],
+      "mutations": [
+        {
+          "type": "checklist_add",
+          "name": "发布前检查清单",
+          "items": [
+            "文件编码：UTF-8（检查 .gitattributes）",
+            "敏感信息：无 Token/密码明文",
+            "本地预览：git status + git diff",
+            "中文内容：确认无乱码"
+          ]
+        },
+        {
+          "type": "checklist_add",
+          "name": "发布后验证清单",
+          "items": [
+            "打开 GitHub 网页确认显示正常",
+            "检查中文注释/文档",
+            "回复用户确认完成"
+          ]
+        },
+        {
+          "type": "config_add",
+          "name": "默认编码配置",
+          "files": [
+            ".gitattributes",
+            ".vscode/settings.json"
+          ]
+        }
+      ],
+      "embedding": null,
+      "reflection_triggered": true,
+      "mutation_accepted": true,
+      "accepted_at": "2026-03-14T16:17:00+08:00"
+    },
+    {
+      "skill_id": "skill_test_001",
+      "timestamp": "2026-03-13T23:50:52.673019",
+      "success": true,
+      "value": 0.8,
+      "context": {
+        "task": "test"
+      },
+      "embedding": null,
+      "reflection_triggered": false,
+      "mutation_accepted": false
+    }
+  ],
+  "updated_at": "2026-03-14T16:17:00+08:00"
+}

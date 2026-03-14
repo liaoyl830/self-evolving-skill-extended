@@ -1,0 +1,50 @@
+{
+  "name": "sessions-yield",
+  "version": "1.0.0",
+  "description": "OpenClaw async review system with 96% performance improvement",
+  "author": "liaoy",
+  "license": "MIT",
+  "main": "openclaw_integration.py",
+  "scripts": {
+    "test": "py test_validation.py",
+    "example": "py openclaw_integration.py --example"
+  },
+  "keywords": [
+    "sessions_yield",
+    "async",
+    "review",
+    "openclaw",
+    "productivity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liaoyl830/openclaw-skills-ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liaoyl830/openclaw-skills-ext/issues"
+  },
+  "homepage": "https://github.com/liaoyl830/openclaw-skills-ext#readme",
+  "files": [
+    "review_background_agent.py",
+    "sessions_yield_adapter.py",
+    "notification_manager.py",
+    "error_handler.py",
+    "mcporter_adapter.py",
+    "openclaw_integration.py",
+    "skill_engine.py",
+    "test_validation.py",
+    "README.md",
+    "USER_GUIDE.md",
+    "API_REFERENCE.md"
+  ],
+  "engines": {
+    "python": ">=3.8",
+    "openclaw": ">=2026.3.12"
+  },
+  "clawhub": {
+    "category": "productivity",
+    "tags": ["review", "async", "productivity"],
+    "displayName": "sessions_yield Review System",
+    "icon": "🦞"
+  }
+}
